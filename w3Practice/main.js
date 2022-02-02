@@ -16,6 +16,7 @@ const stylechange = document.getElementById('stylechange')
 const pp1 = document.getElementById('pp1')
 const pp2 = document.getElementById('pp2')
 const pp3 = document.getElementById('pp3')
+const arit = document.getElementById('arit')
 
 let z, y = 10, x = 5
 
@@ -105,4 +106,13 @@ const addFood = () => {
             ul.innerHTML += `<li>${food}</li>`
         ))
     }, 2000)
+}
+
+const arima = () => {
+    let x = 15, y = '15'
+    x--
+    let z = x
+    // x **= y
+    arit.innerHTML = typeof z
+    // x == y || x === y ? alert('welcome papa') : alert('get out papa')
 }
