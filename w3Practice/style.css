@@ -1,0 +1,7 @@
+#header{
+    transition: height 5s, width 5s, transform 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    height: 100px;
+    width: 50%;
+}
