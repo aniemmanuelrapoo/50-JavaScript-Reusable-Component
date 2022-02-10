@@ -9,7 +9,23 @@ const person = {
     firstName: "Rapoo",
     lastName: 'Man', 
     age: 20, 
-    eyeColor: 'Blue' 
+    eyeColor: 'Blue',
+    fullName: function fullName (){
+        return `${this.firstName} ${this.lastName}`
+    },
+
 }
 
-header.innerHTML = `this is okay ${person['firstName']}`
+// header.innerHTML = `this is okay ${person.fullName()}`
+
+const btnClick = document.getElementById('btnClick')
+
+let text = [48, 65, 87, 92]
+
+let text1 = 'the boy is here'
+
+btnClick.addEventListener('click', () => {
+    header.innerHTML = text1.substr(4, 3)
+})
+
+
