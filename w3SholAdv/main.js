@@ -23,10 +23,21 @@ const btnClick = document.getElementById('btnClick')
 let text = [48, 65, 87, 92]
 
 let text1 = 'the boy is here and the boy is gone'
+let text2 = 'theboyishere'
 let textnew = text1.replace(/boy is/g, 'girl was')
 
+let textCapi = textnew.toUpperCase()
+let contactBox = text1.concat(' ', 'doing nothinf')
+let trimbox = text1.trim()
+let stringPd = ' two'
+let stringpadBox = stringPd.padStart(8, 0)
+
+let chartatBox = text1.charAt(1)
+let propertAcc = text1[1]
+
 btnClick.addEventListener('click', () => {
-    header.innerHTML = textnew
+    header.innerHTML = propertAcc
 })
+
 
 
