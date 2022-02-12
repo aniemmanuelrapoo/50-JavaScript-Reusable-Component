@@ -34,9 +34,12 @@ let stringpadBox = stringPd.padStart(8, 0)
 
 let chartatBox = text1.charAt(1)
 let propertAcc = text1[1]
+let split1 = text2.split("")
+let indexofBox = text1.indexOf('boy', 10)
+let searchBox = text1.search('boy')
 
 btnClick.addEventListener('click', () => {
-    header.innerHTML = propertAcc
+    header.innerHTML = searchBox
 })
 
 
