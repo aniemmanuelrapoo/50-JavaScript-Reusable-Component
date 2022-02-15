@@ -56,7 +56,7 @@ stylechange.addEventListener('click', () => {
             header.style.height = '300px'
             header.style.width = '90%'
             header.style.transform = "rotate(360deg)"
-            window.print()
+            // window.print()
         }, 3000)
     }
 })
