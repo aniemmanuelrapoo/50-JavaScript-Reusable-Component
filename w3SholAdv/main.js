@@ -38,8 +38,12 @@ let split1 = text2.split("")
 let indexofBox = text1.indexOf('boy', 10)
 let searchBox = text1.search('boy')
 
+let num1 = 20
+let num2 = '10'
+let isNumBox = num1 / 'apple'
+
 btnClick.addEventListener('click', () => {
-    header.innerHTML = searchBox
+    header.innerHTML = num1 / 0
 })
 
 
