@@ -54,5 +54,9 @@ btnClick.addEventListener('click', () => {
     header.innerHTML = postiveInf
 })
 
+//Array....................
+
+
+
 
 
