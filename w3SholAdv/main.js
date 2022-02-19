@@ -40,10 +40,18 @@ let searchBox = text1.search('boy')
 
 let num1 = 20
 let num2 = '10'
-let isNumBox = num1 / 'apple'
+let pre = 10.8457234
+let numToSring = num1.toString()
+let numToExpon = num1.toExponential()
+let numToFixed = num1.toFixed(5)
+let presion = pre.toPrecision(5)
+let valOf = num1.valueOf()
+let highest = Number.MAX_VALUE
+let lowest = Number.MIN_VALUE
+let postiveInf = Number.POSITIVE_INFINITY
 
 btnClick.addEventListener('click', () => {
-    header.innerHTML = num1 / 0
+    header.innerHTML = postiveInf
 })
 
 
